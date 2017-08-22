@@ -1,5 +1,5 @@
 FROM gcc:latest
-RUN apt-get install git build-essential gcc -y
+RUN apt-get install git gcc -y
 RUN https://github.com/robertdavidgraham/telnetlogger.git
 WORKDIR /telnetlogger/
 RUN git clone https://github.com/robertdavidgraham/telnetlogger.git
