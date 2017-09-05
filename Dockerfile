@@ -9,4 +9,4 @@ EXPOSE 23
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod 777 /entrypoint.sh
 ENTRYPOINT ["/telnetlogger/"]
-CMD ["/entrypoint.sh"]
+CMD ["./entrypoint.sh"]
