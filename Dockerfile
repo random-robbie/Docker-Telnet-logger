@@ -7,4 +7,5 @@ RUN rm ips.txt &&  rm passwords.txt
 RUN touch ips.txt && touch passwords.txt
 EXPOSE 23
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod 777 /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
