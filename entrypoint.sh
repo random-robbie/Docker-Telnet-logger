@@ -1,4 +1,4 @@
 #!/bin/ash
-/telnetlogger/telnetlogger -p passwds.txt -i ips.txt
+telnetlogger -p /telnetlogger/passwds.txt -i /telnetlogger/ips.txt
 echo "Telnet Honeypot is Running..."
 exec "$@"
