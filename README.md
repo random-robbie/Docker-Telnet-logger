@@ -18,18 +18,16 @@ docker run -p 23:23 txt3rob/docker-telnet-logger
 
 
 To view the results
+----
 
-Change the Telnet to the name of the container you can grab this by typing
-
-```
-sudo docker ps
-```
+Note change Telnet to what ever the name of the container is ... you can find it by going to docker ps
 
 
-
------
 ```
 docker exec -i -t Telnet /bin/ash
 
 cat passwds.txt
 ```
+
+
+
